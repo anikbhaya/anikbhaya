@@ -230,7 +230,7 @@ span.role::before{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    bottom: 25px;
+    bottom: 50px;
     left: 30%;
     text-align: center;
 }
@@ -240,6 +240,18 @@ span.role::before{
     position: relative;
     top: -7px;
     color: var(--primary-color);
+}
+
+
+.hire-me .me div{
+    width: 130px;
+    height: 130px;
+    background: url('/images/anik2.jpg') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 1rem;
+    display: none;
 }
 
 .social a{
@@ -376,19 +388,25 @@ span.role::before{
     .container{
         width: 100%;
     }
+    #header{
+        height: 95vh;
+    }
+    h1{
+        font-size: 26px;
+    }
     .projects{
         grid-template-columns: 1fr;
     }
     .showcase{
-        background-size: 60% auto;
+        background:none
     }
     .showcase .col.col-md-6.col-lg-6:first-child{
         position: relative;
-        top: -150px;
+        top: -190px;
     }
     .hire-me{
         width: 90%;
-        bottom: 55px;
+        top: 300px;
         left: 5%;
         text-align: center;
     }
@@ -396,5 +414,8 @@ span.role::before{
     .shape2,
     .shape3{
         display: none;
+    }
+    .hire-me .me div{
+        display: block;
     }
 }
