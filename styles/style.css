@@ -246,7 +246,7 @@ span.role::before{
 .hire-me .me div{
     width: 130px;
     height: 130px;
-    background: url('/images/anik2.jpg') no-repeat;
+    background: url('https://anikbhaya.github.io/anikbhaya/images/anik2.jpg') no-repeat;
     background-size: 100% 100%;
     border-radius: 50%;
     border: 2px solid var(--primary-color);
@@ -406,7 +406,7 @@ span.role::before{
     }
     .hire-me{
         width: 90%;
-        top: 300px;
+        top: 45%;
         left: 5%;
         text-align: center;
     }
