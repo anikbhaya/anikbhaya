@@ -166,7 +166,7 @@ span.role{
 }
 span.role::before{
     content: '';
-    background: url('/images/line.svg') no-repeat;
+    background: url('https://anikbhaya.github.io/anikbhaya/images/line.svg') no-repeat;
     width: 250px;
     height: 20px;
     position: absolute;
@@ -176,7 +176,7 @@ span.role::before{
 }
 
 .showcase{
-    background: url(/images/anik.png) no-repeat;
+    background: url('https://anikbhaya.github.io/anikbhaya/images/anik.png') no-repeat;
     background-position: right bottom;
     background-size: 45% auto;
     position: relative;
@@ -187,7 +187,7 @@ span.role::before{
 .shape3{
     width: 180px;
     height: 140px;
-    background: url(/images/shape.svg) no-repeat;
+    background: url('https://anikbhaya.github.io/anikbhaya/images/shape.svg') no-repeat;
     background-size: 95% auto;
     background-position: center;
 }
