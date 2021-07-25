@@ -419,3 +419,28 @@ span.role::before{
         display: block;
     }
 }
+
+@media only screen and (max-width: 1024px){
+    
+    .showcase .col.col-md-6.col-lg-6:first-child{
+        height: 700px;
+        position: relative;
+        top: -100px;
+    }
+    #header{
+        height: 700px;
+    }
+    .hire-me{
+        width: 90%;
+        top: 500px;
+        left: 5%;
+        text-align: center;
+    }
+    .shape1,
+    .shape2,
+    .shape3{
+        display: none;
+    }
+
+    
+}
