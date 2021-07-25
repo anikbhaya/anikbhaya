@@ -420,7 +420,7 @@ span.role::before{
     }
 }
 
-@media only screen and (max-width: 1024px){
+/* @media only screen and (max-width: 1024px){
     
     .showcase .col.col-md-6.col-lg-6:first-child{
         height: 700px;
@@ -443,4 +443,4 @@ span.role::before{
     }
 
     
-}
+} */
