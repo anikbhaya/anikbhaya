@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="styles/animate.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
@@ -25,26 +27,26 @@
             </nav>
             <!-- Showcase -->
             <div class="row showcase">
-                <div class="col col-md-6 col-lg-6">
+                <div class="col col-md-6 col-lg-6 wow animate__animated animate__fadeInLeft">
                     <h4 class="weight-regular">Hello, I'm</h4>
                     <h1>Mushfiqul Islam Anik</h1>
                     <h4 class="weight-semibold">Freelance <span class="text-primary role">Graphic Designer</span></h4>
                 </div>
                 <div class="col col-md-6 col-lg-6">
                     <div class="showcase-img">
-                        <div class="shape1">
+                        <div class="shape1 wow animate__animated animate__bounceIn">
                             <div class="shape">
                                 <h2>1200+</h2>
                                 <p>Completed Projects</p>
                             </div>
                         </div>
-                        <div class="shape2">
+                        <div class="shape2 wow animate__animated animate__bounceIn">
                             <div class="shape">
                                 <h2>500+</h2>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
-                        <div class="shape3">
+                        <div class="shape3 wow animate__animated animate__bounceIn">
                             <div class="shape">
                                 <h2>3+</h2>
                                 <p>Years Experience</p>
@@ -53,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hire-me">
+            <div class="hire-me wow animate__animated animate__fadeInUp">
                 <a href="#" class="me">
                     <div></div>
                 </a>
@@ -77,8 +79,8 @@
     <!-- Portfolio section start -->
     <section id="portfolio" class="section">
         <div class="container">
-            <h2>PORTFOLIO</h2>
-            <div class="category">
+            <h2 class="wow animate__animated animate__fadeInLeft">PORTFOLIO</h2>
+            <div class="category wow animate__animated animate__fadeInLeft">
                 <li><a href="">ALL WORK</a></li>
                 <li><a href="">GRAPHIC DESIGN</a></li>
                 <li><a href="">WEB DESIGN</a></li>
@@ -86,7 +88,7 @@
             <div class="projects">
 
                 <!-- Panda Ecommerce Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/Panda-Ecommerce.png') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/Panda-Ecommerce/" target="blank">
@@ -103,7 +105,7 @@
                 </div>
                 
                 <!-- Copa America 2021 Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/Copa-America-2021.png') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/copa-america/" target="blank">
@@ -119,7 +121,7 @@
                 </div>
 
                 <!-- Leader Board Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/leader-board.png') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/leader-board/" target="blank">
@@ -135,7 +137,7 @@
                 </div>
 
                 <!-- Food Eater Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/Food-Eater.png') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/Food-Eater-Portfolio/" target="blank">
@@ -151,7 +153,7 @@
                 </div>
 
                 <!-- Event Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/events\ 001.jpg') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/events/" target="blank">
@@ -167,7 +169,7 @@
                 </div>
 
                 <!-- Newsgrid Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/newsgrid\ 001.jpg') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/newsgrid/" target="blank">
@@ -183,7 +185,7 @@
                 </div>
 
                 <!-- Woteen Website -->
-                <div class="ind-prj">
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
                     <div class="prj-img" style="background: url('images/projects/woteen-001.jpg') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
                         <!-- Live Preview Link -->
                     <a href="https://anikbhaya.github.io/woteen/" target="blank">
@@ -212,9 +214,9 @@
 
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
-        $('#fullpage').fullpage();
-
-    </script>
+        new WOW().init();
+        </script>
 </body>
 </html>
