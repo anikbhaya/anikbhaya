@@ -219,20 +219,17 @@
 
 
     <script src="js/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script>
         new WOW().init();
 
-        // $(document).ready(function(){
-			// 	$('div#loading').removeAttr('id');
-		// });
-		var preloader = document.getElementById("loading");
-		// window.addEventListener('load', function(){
-		// 	preloader.style.display = 'none';
-		// 	})
 
-		function myFunction(){
-			preloader.style.display = 'none';
-		};
+
+        $(document).ready(function () {
+            $(window).load(function(){
+                $('#loading').delay(1000).fadeOut();
+                });
+        });
         </script>
 </body>
 </html>
