@@ -12,7 +12,13 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="myFunction()">
+    <!-- <div id="loading"></div> -->
+
+    <div id="loading"><div class="loading-anim">
+        <div></div><div></div>
+        </div></div>
+
     <!-- Header Start -->
     <header id="header" class="section">
         <div class="container">
@@ -21,7 +27,7 @@
                     <img src="https://anikbhaya.github.io/anikbhaya/images/logo.svg" width="100px" alt="">
                 </a>
                 <div class="nav">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                 </div>
             </nav>
@@ -215,6 +221,18 @@
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+
+        // $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
         </script>
 </body>
 </html>

@@ -119,6 +119,7 @@ h3,a{
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    z-index: 9999;
 }
 
 .nav{
@@ -288,11 +289,12 @@ span.role::before{
 
 .category li a{
     border-bottom: 3px solid transparent;
-    transition: border .3s linear;
+    transition: color .3s linear;
+    font-weight: 600;
 }
 
 .category li:hover a{
-    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -444,3 +446,54 @@ span.role::before{
 
     
 } */
+
+/* Preloader */
+@keyframes loading-anim {
+    0% {
+      top: 78px;
+      left: 78px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 156px;
+      height: 156px;
+      opacity: 0;
+    }
+  }.loading-anim div {
+    position: absolute;
+    border: 5px solid;
+    opacity: 1;
+    border-radius: 50%;
+    animation: loading-anim 1s cubic-bezier(0,0.2,0.8,1) infinite;
+    margin: auto;
+  }
+  .loading-anim div:nth-child(1) {
+    border-color: var(--light-color);
+    animation-delay: 0s;
+  }
+  .loading-anim div:nth-child(2) {
+    border-color: var(--primary-color);
+    animation-delay: -0.5s;
+  }
+  .loading-anim{
+    position: fixed;
+    width: 156px;
+    height: 156px;
+    background-color: var(--secondary-color);
+  }
+
+  #loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    z-index: 99999;
+    overflow: hidden;
+  }
