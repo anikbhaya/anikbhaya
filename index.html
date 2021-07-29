@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="myFunction()">
     <!-- <div id="loading"></div> -->
 
     <div id="loading"><div class="loading-anim">
@@ -92,6 +92,24 @@
                 <li><a href="">WEB DESIGN</a></li>
             </div>
             <div class="projects">
+
+
+                <!-- Honda CBR Website -->
+                <div class="ind-prj wow animate__animated animate__fadeInUp">
+                    <div class="prj-img" style="background: url('images/projects/HONDA-CBR.png') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
+                        <!-- Live Preview Link -->
+                    <a href="https://honda-cbr-anikbh.netlify.app/" target="blank">
+                        <div class="overlay">
+                            <h4 class="text weight-semibold">Honda CBR Website</h4>
+                            <div class="used-lan">  <!-- Used Technology -->
+                                <p class="lan html">HTML</p>
+                                <p class="lan css">CSS</p>
+                                <p class="lan bootstrap">BOOTSTRAP</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
 
 
                 <!-- Penguin Fashion Website -->
@@ -244,12 +262,19 @@
         new WOW().init();
 
 
+        // For jQuery
+        // $(document).ready(function () {
+        //     $(window).load(function(){
+        //         $('#loading').delay(800).fadeOut();
+        //         });
+        // });
 
-        $(document).ready(function () {
-            $(window).load(function(){
-                $('#loading').delay(800).fadeOut();
-                });
-        });
+        // vanilla js
+        var preloader = document.getElementById("loading");
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
         </script>
 </body>
 </html>
