@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
 </head>
-<body onload="myFunction()">
+<body onload="">
     <!-- <div id="loading"></div> -->
 
     <div id="loading"><div class="loading-anim">
@@ -290,10 +290,12 @@
         // vanilla js
         var preloader = document.getElementById("loading");
 
-		function myFunction(){
+		
+        setTimeout(function myFunction(){
 			preloader.style.display = 'none';
             new WOW().init();
-		};
+		}, 1300);
+        
         </script>
 </body>
 </html>
