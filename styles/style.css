@@ -385,6 +385,11 @@ span.role::before{
     color: #fff;
 }
 
+.used-lan .js{
+    background: linear-gradient(45deg,#f58233,#f99d34);
+    color: #fff;
+}
+
 .used-lan .tailwind{
     background: linear-gradient(45deg,#0297b6,#1dc9b8);
     color: #fff;
