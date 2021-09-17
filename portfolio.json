@@ -1,0 +1,71 @@
+{
+    "portfolio": [
+        {
+            "title": "Books Archive",
+            "thumbnail": "images/projects/books-archive.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/books-archive/",
+		    "tech": ["html", "css", "javascript"]
+        },
+        {
+            "title": "Product Cart Page",
+            "thumbnail": "images/projects/productCartPage.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/MacBook-pro/",
+		    "tech": ["html", "css", "javascript"]
+        },
+        {
+            "title": "Honda CBR",
+            "thumbnail": "images/projects/HONDA-CBR.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/honda-cbr/",
+		    "tech": ["html", "css", "bootstrap"]
+        },
+        {
+            "title": "Penguin Fashion",
+            "thumbnail": "images/projects/Penguin-Fashion-Website.png",
+            "livePreviewURL": "https://anikbhaya.github.io/penguin-fashion/",
+		    "tech": ["html", "css", "tailwind"]
+        },
+        {
+            "title": "Panda Ecommerce",
+            "thumbnail": "images/projects/Panda-Ecommerce.png",
+            "livePreviewURL": "https://anikbhaya.github.io/Panda-Ecommerce/",
+		    "tech": ["html", "css", "bootstrap"]
+        },
+        {
+            "title": "Copa America 2021",
+            "thumbnail": "images/projects/Copa-America-2021.png",
+            "livePreviewURL": "https://anikbhaya.github.io/copa-america/",
+		    "tech": ["html", "css"]
+        },
+        {
+            "title": "Leader Board",
+            "thumbnail": "images/projects/leader-board.png",
+            "livePreviewURL": "https://anikbhaya.github.io/leader-board/",
+		    "tech": ["html", "css"]
+        },
+        {
+            "title": "Food Eater",
+            "thumbnail": "images/projects/Food-Eater.png",
+            "livePreviewURL": "https://anikbhaya.github.io/Food-Eater-Portfolio/",
+		    "tech": ["html", "css"]
+        },
+        {
+            "title": "Event",
+            "thumbnail": "images/projects/events 001.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/events/",
+		    "tech": ["html", "css"]
+        },
+        {
+            "title": "Newsgrid",
+            "thumbnail": "images/projects/newsgrid.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/newsgrid/",
+		    "tech": ["html", "css"]
+        },
+        {
+            "title": "Woteen",
+            "thumbnail": "images/projects/woteen-001.jpg",
+            "livePreviewURL": "https://anikbhaya.github.io/woteen/",
+		    "tech": ["html", "css"]
+        }
+
+    ]
+}
