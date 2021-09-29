@@ -1,6 +1,12 @@
 {
     "portfolio": [
         {
+            "title": "Car Rental Website",
+            "thumbnail": "images/projects/Car-Rental-Website.jpg",
+            "livePreviewURL": "https://car-rental-anikbhaya.netlify.app/",
+		    "tech": ["html", "css", "react", "bootstrap"]
+        },
+        {
             "title": "Books Archive",
             "thumbnail": "images/projects/books-archive.jpg",
             "livePreviewURL": "https://anikbhaya.github.io/books-archive/",

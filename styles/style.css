@@ -394,6 +394,10 @@ span.role::before{
     background: linear-gradient(45deg,#0297b6,#1dc9b8);
     color: #fff;
 }
+.used-lan .react{
+    background: linear-gradient(45deg,#7ddfff,#4ad5ff);
+    color: #fff;
+}
 
 
 @media only screen and (max-width: 768px) {
