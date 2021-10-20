@@ -1,6 +1,18 @@
 {
     "portfolio": [
         {
+            "title": "OpticalDoc Website",
+            "thumbnail": "images/projects/OpticalDoc.png",
+            "livePreviewURL": "https://opticaldoc-5daeb.web.app/",
+		    "tech": ["html", "css", "react", "tailwind"]
+        },
+        {
+            "title": "Edutor Website",
+            "thumbnail": "images/projects/Edutor.png",
+            "livePreviewURL": "https://edutor-anikbhaya.netlify.app/",
+		    "tech": ["html", "css", "react", "tailwind"]
+        },
+        {
             "title": "Car Rental Website",
             "thumbnail": "images/projects/Car-Rental-Website.jpg",
             "livePreviewURL": "https://car-rental-anikbhaya.netlify.app/",

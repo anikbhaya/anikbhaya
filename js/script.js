@@ -20,7 +20,7 @@ const appendPortfolio = allPortfolios =>{
         <!-- ${title} -->
         <div class="prj-img" style="background: url('${thumbnail}') no-repeat center top/cover;"><!-- PROJECT IMAGE -->
             <!-- Live Preview Link -->
-            <a href="${livePreviewURL}" target="blank">
+            <a href="${livePreviewURL}" target="_blank">
                 <div class="overlay">
                     <h4 class="text weight-semibold">${title}</h4>
                     <div class="used-lan">  <!-- Used Technology -->
