@@ -398,6 +398,14 @@ span.role::before{
     background: linear-gradient(45deg,#7ddfff,#4ad5ff);
     color: #fff;
 }
+.used-lan .mongodb{
+    background: linear-gradient(45deg,#12914e,#10aa50);
+    color: #fff;
+}
+.used-lan .firebase{
+    background: linear-gradient(45deg,#ffa712,#ffcb2b);
+    color: #fff;
+}
 
 
 @media only screen and (max-width: 768px) {
