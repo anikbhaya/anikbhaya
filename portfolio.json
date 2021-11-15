@@ -1,6 +1,12 @@
 {
     "portfolio": [
         {
+            "title": "Dronet Website",
+            "thumbnail": "images/projects/Dronet.png",
+            "livePreviewURL": "https://drone-website-1248a.web.app/",
+		    "tech": ["html", "css", "react", "tailwind", "mongodb", "firebase"]
+        },
+        {
             "title": "Traventures Website",
             "thumbnail": "images/projects/Tranventures.png",
             "livePreviewURL": "https://tourism-4bd36.web.app/",
