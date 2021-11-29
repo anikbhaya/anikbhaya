@@ -104,10 +104,33 @@ h3,a{
     background: var(--primary-color);
 }
 
+.btn-outline{
+    display: inline;
+    font-size: var(--title3-size);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: .2rem 1rem;
+    border-radius: 2rem;
+    transition: background .5s linear;
+    margin: 1rem 0;
+    
+    color: var(--primary-color);
+    
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+
 .btn:hover{
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
     background: transparent;
+}
+.btn-outline:hover{
+    color: var(--light-color);
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
 }
 
 
