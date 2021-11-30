@@ -55,6 +55,10 @@ p{
     font-size: var(--sub-size);
 }
 
+.text-light{
+    color: var(--light-color)!important
+}
+
 .weight-regular{
     font-weight: 400;
 }

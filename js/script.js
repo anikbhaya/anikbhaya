@@ -45,3 +45,24 @@ const appendPortfolio = allPortfolios =>{
     });
 }
 
+const form = document.getElementById("contactForm")
+form.addEventListener('submit', (e) =>{
+    e.preventDefault()
+    
+    const fullName = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const subject = document.getElementById('subject').value
+    const message = document.getElementById('message').value
+
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "bhaya.gvoice@gmail.com",
+        Password: "danuqdbgaepjjevb",
+        To: email,
+        From: "bhaya.gvoice@gmail.com",
+        Subject: `${fullName} sent you a message: ${subject}`,
+        Body: message
+    })
+    .then(message => {alert("mail has been sent successfully")})
+})
+

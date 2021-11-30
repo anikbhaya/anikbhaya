@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,21 @@
     <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
 
     <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/contact-form.css">
     <link rel="stylesheet" href="styles/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ce18724596.js" crossorigin="anonymous"></script>
 </head>
+
 <body onload="">
     <!-- <div id="loading"></div> -->
 
-    <div id="loading"><div class="loading-anim">
+    <!-- <div id="loading"><div class="loading-anim">
         <div></div><div></div>
-        </div></div>
+        </div></div> -->
 
     <!-- Header Start -->
-    <header id="header" class="section" >
+    <header id="header" class="section">
         <div class="container">
             <nav class="navbar">
                 <a href="#" class="logo">
@@ -39,7 +42,9 @@
                     <h1>Mushfiqul Islam Anik</h1>
                     <h4 class="weight-semibold">Freelance <span class="text-primary role">Web Designer</span></h4>
                     <div class="d-block btn-container">
-                        <a target="_blank" href="https://drive.google.com/file/d/1EFZb-Z1Q9nTBZULu6P4gn2vJ979ygtOI/view?usp=sharing" class="btn-outline">Download Resume</a>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1EFZb-Z1Q9nTBZULu6P4gn2vJ979ygtOI/view?usp=sharing"
+                            class="btn-outline">Download Resume</a>
                     </div>
                 </div>
                 <div class="col col-md-6 col-lg-6">
@@ -71,14 +76,17 @@
                 </a>
                 <h4>Available For Freelance Work</h4>
                 <div>
-                    <a target="_blank" href="https://www.upwork.com/freelancers/~019ad4cfd1fd5659e3" class="btn">Hire Me</a>
+                    <a target="_blank" href="https://www.upwork.com/freelancers/~019ad4cfd1fd5659e3" class="btn">Hire
+                        Me</a>
                 </div>
                 <div class="social">
-                    <a target="_black" href="https://www.facebook.com/anikbhayaa/"><i class="fab fa-facebook-f"></i> </a>                   
-                    <a target="_black" href="https://twitter.com/anikbhayaa"><i class="fab fa-twitter"></i> </a>                   
-                    <a target="_black" href="https://github.com/anikbhaya"><i class="fab fa-github"></i> </a>                   
-                    <a target="_black" href="https://www.linkedin.com/in/anikbhaya/"><i class="fab fa-linkedin-in"></i></a>                   
-                    <a target="_black" href="https://www.behance.net/anikbhaya"><i class="fab fa-behance"></i></a>                   
+                    <a target="_black" href="https://www.facebook.com/anikbhayaa/"><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a target="_black" href="https://twitter.com/anikbhayaa"><i class="fab fa-twitter"></i> </a>
+                    <a target="_black" href="https://github.com/anikbhaya"><i class="fab fa-github"></i> </a>
+                    <a target="_black" href="https://www.linkedin.com/in/anikbhaya/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a target="_black" href="https://www.behance.net/anikbhaya"><i class="fab fa-behance"></i></a>
                 </div>
             </div>
         </div>
@@ -101,27 +109,92 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrap p-md-5 p-4">
+                <h3 class="mb-4 text-light">Get in touch</h3>
+                <div id="form-message-warning" class="mb-4"></div>
+                <!-- <div id="form-message-success text-light" class="mb-4">
+                    Your message was sent, thank you!
+                </div> -->
+                <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="label text-light" for="name">Full Name</label>
+                                <input required="true" style="padding:10px" type="text" class="form-control" name="name" id="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="label text-light" for="email">Email Address</label>
+                                <input required style="padding:10px" type="email" class="form-control" name="email" id="email"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="label text-light" for="subject">Subject</label>
+                                <input required style="padding:10px" type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <grammarly-extension data-grammarly-shadow-root="true"
+                                style="position: absolute; top: 0px; left: 0px; pointer-events: none;"
+                                class="cGcvT"></grammarly-extension>
+                            <grammarly-extension data-grammarly-shadow-root="true"
+                                style="mix-blend-mode: darken; position: absolute; top: 0px; left: 0px; pointer-events: none;"
+                                class="cGcvT"></grammarly-extension>
+                            <div class="form-group">
+                                <label class="label text-light" for="#">Message</label>
+                                <textarea required name="message" class="form-control" style="padding:10px" id="message" cols="30" rows="4"
+                                    placeholder="Message" spellcheck="false"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="submit" value="Send Message" class="btn btn-primary">
+                                <div class="submitting"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-secondary-light" style="text-align: center; padding: 15px 0; background: rgba(255, 255, 255, 0.068);">
+            <div class="container">
+                Copyright 2021
+            </div>
+        </div>
+    </footer>
 
 
-        
 
 
 
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
     <!-- <script src="js/jquery-2.2.4.min.js"></script> -->
     <script>
-        
 
 
-        var preloader = document.getElementById("loading");
 
-		
-        setTimeout(function myFunction(){
-			preloader.style.display = 'none';
-            new WOW().init();
-		}, 1300);
-        
-        </script>
+        // var preloader = document.getElementById("loading");
+
+
+        // setTimeout(function myFunction(){
+		// 	preloader.style.display = 'none';
+        //     new WOW().init();
+		// }, 1300);
+
+    </script>
 </body>
+
 </html>
